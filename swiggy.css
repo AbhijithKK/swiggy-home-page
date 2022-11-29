@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+/* ##############FIRST ROW################ */
+
+.row{
+    height: 600px;
+width: 100%;
+    position: relative;
+    
+}
+.right-side{
+position: absolute;
+background-repeat: no-repeat;
+align-items: center;
+display: flex;
+background-image: url(./swiggyimgs/new\ background.jpg);
+height: 100%;
+width: 50%;
+background-size: cover;
+right: 0;
+}
+.left-side{
+height: 100%;
+width: 50%;
+position: absolute;
+background-color: rgb(255, 255, 255);
+left: 0%;
+}
+.elements{
+    margin-left: 315px;
+    margin-right: 57px;
+    margin-top: 54px;
+}
+.logoImg{
+    width: 180px;
+
+}
+.buttons{
+    float: right;
+}
+button{
+    width: 100px;
+    height: 40px;
+    color: white;
+    border: 0ch;
+    background-color: black;
+    font-weight: bold;
+}
+.btn1{
+    background-color: white;
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+}
+.btn1:hover{
+    cursor: pointer;
+    color: tomato;
+    
+}
+.elements h1{
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 45px
+
+}
+.elements p{
+    color: rgb(180, 180, 180);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -2px;
+}
+.elements input{
+    height: 50px;
+    width: 480px;
+    border-style: solid;
+    
+
+}
+.elements input:focus{
+    border-color: tomato;
+    outline: none;
+}
+.btnFood{
+    height: 50px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    margin-left: -5px;
+
+}
+.elements a{
+    text-decoration: none;
+
+}
+.one{
+    color: rgb(44, 44, 44);
+}
+.two{
+    color: rgb(102, 102, 102);
+}
+.F{
+padding-bottom: 30px;
+font-size: 20px;
+}
+.T{
+padding-top: 30px;
+}
+
+/* ######################################### */
+/* ################SECOND ROW################## */
+.main2{
+background-color: rgb(46, 39, 39);
+height: 400px;
+width: 100%;
+}
+.row11{
+width: 33%;
+float: left;
+}
+.row12{
+width: 33%;
+float: left;
+}
+.row13{
+width: 33%;
+float: left;
+}
+.row11 img{
+    /* height: 15px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.row11 h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.row11 p{
+    color: white;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+
+.row12 img{
+    /* height: 15px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.row12 h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.row12 p{
+    color: white;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+
+.row13 img{
+    /* height: 15px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 35px;
+}
+.row13 h1{
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.row13 p{
+    color: white;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+
+.row1{
+    margin-left: 155px;
+    margin-right: 275px;
+}
+
+/* ##################################################### */
+/* ###################ROW 3################################# */
+.main3{
+    height: 500px;
+    width: 100%;
+}
+.left3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    
+    
+}
+.right3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+   
+}
+.left3 div{
+    margin-left: 285px;
+    margin-right: 220px;
+    margin-top: 135px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.storeico{
+    width: 160px;
+}
+.left3 p{
+    color: rgb(179, 175, 175);
+}
+.mob{
+    width: 393px;
+}
+.right3 div{
+    margin-left: -130px;
+}
+/* ################################################### */
+/* ###############ROW 4 ###############################*/
+td{
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+td:hover{
+    font-weight: 550;
+    cursor: pointer;
+}
+th{
+    padding: 8px;
+    text-align: left;
+    color: rgb(126, 126, 126);
+}
+.foot{
+    background-color: black;
+    background-size: cover;
+    
+    
+}
+table {
+    border-collapse: separate;
+    border-spacing: 160px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 100px;
+  }
+  
+  .footRow{
+    margin-left: 100px;
+    width: 70%;
+    float: left;
+    height: 100%;
+   
+   
+    
+  }
+  
+  .footimg{
+    width: 30%;
+    float: left;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: -142px;
+  }
+  .footimg a img{
+   
+    width: 199px;
+    margin-top: 35px;
+    margin-left: 55px;
+    transition: ease-in-out 0.5s;
+    
+  }
+
+  .footimg a img:hover{
+    width: 210px;
+  }
+
+
+  .rowfoot{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  }
+  .linefoot{
+    width: 1295px;
+    height: 1px;
+    color: rgb(141, 140, 139);
+    margin-left: 265px;
+    margin-top: 12px;
+  }
+  /* ########################################################### */
+  /* #########################FOOOT ROW######################### */
+  .locations{
+    background-color: black;
+    margin: -8px;
+  }
+  .locations div{
+    margin-left: 29px;
+    margin-top: 8px;
+  }
+  .locations div table{
+    padding-top: 25px;
+    border-spacing: 248px 0;
+  }
+  .locations div hr{
+    margin-left: 240px;
+  }
+  .mainFoot{
+    background-color: black;
+    
+
+  }
+  .rowMainFoot{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 178px;
+    margin-left: -40px;
+    padding-top: 30px;
+
+  }
+  .footLogo img{
+width: 100px;
+  }
+  .copyRight p{
+color: white;
+  }
+  .flogos{
+padding-left: 10px;
+width: 25px;
+
+  }
+  /* ######################################################## */
+  .animations::before{
+    content: 'Cooking gone Wrong?';
+    animation: animate infinite 10s;
+}
+@keyframes animate{
+    0%{
+        content: 'Hungry?';
+    }
+    20%{
+        content: 'Movie Marathon?';
+    }
+    40%{
+        content: 'Late nite at office?';
+    }
+    60%{
+        content: 'Unexpected guest?';
+    }
+    80%{
+        content: 'Game nite?';
+    }
+    
+}
