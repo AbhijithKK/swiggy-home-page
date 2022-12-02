@@ -250,10 +250,10 @@ float: left;
 td{
     padding: 8px;
     text-align: left;
-    color: white;
+    color: rgb(177, 177, 177);
 }
 td:hover{
-    font-weight: 550;
+    color:white;
     cursor: pointer;
 }
 th{
